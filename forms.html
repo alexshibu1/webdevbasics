@@ -4,52 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Join the Waitlist</title>
+    <title>Forms</title>
   </head>
   <body>
-    <h1>JOIN</h1>
-    <form action="/about.html">
-      <p>
-        <label for="name">First Name:</label>
-        <!-- NAME IS WHAT THE DATE IS SENT TO THE SERVER UNDER -->
-        <input type="text" name="firstn" id="name" required />
-        <label for="lastname">Last name</label>
-        <input type="text" name="lastn" id="lastname" required />
-      </p>
+    <h1>Forms</h1>
+    <br /><br /><br /><br /><br />
+    <p>In this I started learning the basiscs of forms and buttons</p>
 
-      <p>
-        <label for="race">Select Race</label>
-      </p>
-      <!-- value is what is sent though if one bootn is clicked meaning if the no value is present the website sents "on to the server". So add value with the tru data that needs to be sent through-->
-      <div>
-        <input type="radio" id="race" name="race" value="5K" checked />
-        <label for="huey">5K</label>
-      </div>
-
-      <div>
-        <input type="radio" id="race" name="race" value="10K" />
-        <label for="10K">10K</label>
-      </div>
-
-      <div>
-        <input type="radio" id="race" name="race" value="20K" />
-        <label for="20K">20k</label>
-      </div>
-      <div>
-        <label for="age">Select a age: </label>
-        <select name="age" id="age">
-          <option value="18">18</option>
-          <option value="19">19</option>
-          <option value="20">20</option>
-          <option value="21">21</option>
-        </select>
-      </div>
-      <p>
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="email" required />
-      </p>
-
-      <button>Register</button>
+    <form
+      action="mailto:alexshibu04@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+      <input type="submit" value="Submit" />
     </form>
   </body>
 </html>
+
+https://www.google.com/search?q=alexshibu
