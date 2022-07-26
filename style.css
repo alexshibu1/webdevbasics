@@ -1,44 +1,19 @@
-h1{
-    font-family: sans-serif
-}
-
-#bio{
-    font-size: large;
-}
-body{
-    font-family: 'roboto', sans-serif;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #ffe8bd;
-
-    /* display: flex; */
-}
-* {
-
-    text-align: center;
-    font-family: sans-serif;
-    
-}
-
-h3{
-        
-   font-weight: normal;
-        
-            
-}
-button{
-    background: none;
-    color: #ff723a;
-    border: 2px solid;
-    padding: 1em 2em;
-    font-size: 1em;
-
-}
-button:hover{
-    border-color: rgb(182, 63, 250);
-    color: black;
-    box-shadow: 0 0.5em 0.5em -0.4em #ff723a ;
-    transform: translateY(-0.45em);
-    cursor: pointer;
-}
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .image {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+  
